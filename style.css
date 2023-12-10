@@ -1,0 +1,106 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #31114e;
+    border-radius: 12px;
+}
+li {
+    float: left;
+}
+li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: 5%;
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111111;
+}
+body {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/zu2-MChgciy5GiAemPZ3GpsFDSw=/0x0:854x505/920x613/filters:focal(394x186:530x322)/cdn.vox-cdn.com/uploads/chorus_image/image/68563064/bd0ea75cd9da517467cc637efb30950f_videocover.0.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    margin: 5%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: rgb(254, 254, 254);
+}
+.div1 {
+    background-color: #111111ce;
+    border-radius: 5px;
+    padding: 15px;
+}
+.h21 {
+    margin-left: 5%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.p2 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(254, 254, 254);
+    text-align: justify;
+}
+.link {
+    background-color: blueviolet;
+    color: beige;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+button {
+    margin-left: 5%;
+    background-color: #31114e;
+    color: #ddd;
+}
+.pic {
+    margin-left: 5%;
+    border-radius: 15px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 5%;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: aliceblue;
+}
+tr:hover {background-color: rgba(255, 162, 0, 0.121);
+}
+
+.mycontainer {
+    width: 100%;
+    overflow: auto;
+    color: beige;
+    margin-left: 5%;
+}
+.mycontainer div {
+    width: 150px;
+    float: left;
+    margin: 5px;
+    border-radius: 5px;
+}
+.fname {
+    background-color: beige;
+}
